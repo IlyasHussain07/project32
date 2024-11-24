@@ -6,7 +6,7 @@ function App() {
 
   const [isActive, setIsActive] = useState(false)
 
-  if (isActive) {
+  if (!isActive) {
     return <ImageGallary />
   }
 
@@ -228,6 +228,12 @@ const IMAGES_URIS = [
   ],
   [
     {
+      id: 2222,
+      uri: "/images/37-trio.jpeg",
+      date: "",
+      type: "img"
+    },
+    {
       id: 5,
       uri: '/images/09-Xmus.jpg',
       caption: "Santa - XMUS",
@@ -289,7 +295,7 @@ const IMAGES_URIS = [
       caption: "Golcunda Fort",
       date: "",
       type: "img"
-    },
+    }
   ],
   [
     {
@@ -417,7 +423,7 @@ const IMAGES_URIS = [
       id: 35,
       uri: "/images/WhatsApp Image 2024-11-24 at 10.37.56 AM.jpeg",
       caption: "END",
-      date: "",
+      date: "27-08-2024",
       type: "img"
     },
   ]
