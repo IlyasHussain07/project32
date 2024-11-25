@@ -6,7 +6,7 @@ function App() {
 
   const [isActive, setIsActive] = useState(false)
 
-  if (!isActive) {
+  if (isActive) {
     return <ImageGallary />
   }
 
