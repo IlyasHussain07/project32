@@ -420,6 +420,13 @@ const IMAGES_URIS = [
       type: "img"
     },
     {
+      id: 3500,
+      uri: "/images/VID-20220805-WA0002.mp4",
+      caption: "Best Tiktok video I ever seen",
+      date: "",
+      type: "video"
+    },
+    {
       id: 35,
       uri: "/images/WhatsApp Image 2024-11-24 at 10.37.56 AM.jpeg",
       caption: "END",

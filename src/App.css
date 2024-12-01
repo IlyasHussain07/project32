@@ -70,7 +70,7 @@
 .image_slider_container {
   width: 25%;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
 }
 
@@ -82,6 +82,7 @@
   width: 100%;
   position: absolute;
   left: 0;
+  top: 0;
 }
 
 .slider-container img {
@@ -118,13 +119,13 @@
 
 
 .slider-top {
-  animation: scrolltop 240s infinite linear;
-  top: 0;
+  /* animation: scrolltop 240s infinite linear; */
+  /* top: 0; */
 }
 
 .slider-bottom {
-  animation: scrollbottom 240s infinite linear;
-  bottom: -550vh;
+  /* animation: scrollbottom 240s infinite linear; */
+  /* bottom: -550vh; */
 }
 
 @keyframes scrolltop {
@@ -198,13 +199,13 @@
 
 @media (max-width: 550px) {
   .slider-top {
-    animation: scrollTop1 240s infinite linear;
-    top: 0;
+    /* animation: scrollTop1 240s infinite linear; */
+    /* top: 0; */
   }
 
   .slider-bottom {
-    animation: scrollBottom2 240s infinite linear;
-    bottom: -150vh;
+    /* animation: scrollBottom2 240s infinite linear; */
+    /* bottom: -150vh; */
   }
 
 
